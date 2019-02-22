@@ -16,14 +16,10 @@ VENDOR_PATH := vendor/MiuiCamera
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/etc/default-permissions/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml \
-    $(VENDOR_PATH)/system/etc/dualcamera.png:system/etc/dualcamera.png \
-    $(VENDOR_PATH)/system/etc/MIUI_Time.ttf:system/etc/MIUI_Time.ttf \
-    $(VENDOR_PATH)/system/etc/morpho_lowlight4.0.xml:system/etc/morpho_lowlight4.0.xml \
     $(VENDOR_PATH)/system/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
     $(VENDOR_PATH)/system/lib/libmorpho_groupshot.so:system/lib/libmorpho_groupshot.so \
     $(VENDOR_PATH)/system/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     $(VENDOR_PATH)/system/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
-    $(VENDOR_PATH)/system/lib/libmorphohht4.0.so:system/lib/libmorphohht4.0.so \
     $(VENDOR_PATH)/system/lib64/libCameraEffectJNI.so:system/lib64/libCameraEffectJNI.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_groupshot.so:system/lib64/libmorpho_groupshot.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
